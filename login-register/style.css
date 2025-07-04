@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede4ea;
+    color: #333;
+}
+
+.container {
+    margin: 0 15px;
+}
+
+.form-box {
+    min-width: 450px;
+    padding: 30px;
+    background-color: #79ec9f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(208, 243, 243);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    width: 58%;
+    padding: 10px;
+    background-color: #10035b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 21%;
+}
+
+button:hover {
+    background-color: #e391b1;
+}
+
+p a {
+    color: rgb(78, 11, 171);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Welcome Page Styles ===== */
+
+body.welcome {
+    background: linear-gradient(to right, #c9ffbf, #ffafbd);
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-box {
+    margin: 100px auto;
+    padding: 30px;
+    width: 60%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-box h1 {
+    font-size: 36px;
+    color: #10035b;
+}
+
+.welcome-box p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #10035b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #e391b1;
+}
+
+.welcome-box ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
