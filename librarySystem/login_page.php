@@ -20,8 +20,9 @@ session_start();
             <h2 class="form-title">Login to Your Account</h2>
             
             <?php 
-                if (isset($_SESSION['error']) && $_SERVER['REQUEST_METHOD'] === 'POST'): 
+                if (isset($_SESSION['error'])): 
             ?>
+
                 <div class="alert alert-error">
                     <?php 
                         echo htmlspecialchars($_SESSION['error']); 
